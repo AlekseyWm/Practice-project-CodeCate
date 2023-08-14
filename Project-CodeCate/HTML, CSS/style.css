@@ -1,0 +1,286 @@
+:root {
+    --bg-color: #0080C8;
+    --line-color1: rgba(105, 220, 232, 0.56);
+    --line-color2: #69DCE8;
+    --name-pr: white;
+    --shrift-name: Montserrat;
+    --shrift-color: #4b4f55;
+    --buttom-color: #005E9E;
+}
+
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+/*======================================================*/
+body {
+    line-height: 1;
+    font-family: var(--shrift-name);
+    color: rgb(60, 57, 57);
+    min-width: 720px;
+}
+/*======================================================*/
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*======================================================*/
+.header {
+    height: 90px;
+    background: var(--bg-color);
+    min-width: 720px;    
+    padding: 0px 15px;
+}
+/*======================================================*/
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+}
+
+.parallelogram {
+    position: absolute;
+    display: block;
+    width: 33px;
+    height: 89px;
+    left: 25%;
+    background: #69DCE8;
+    background-repeat: repeat-x;
+    transform: skew(32deg);
+
+}
+/*======================================================*/
+.logo__link {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-image: url(/img/CodeCate.png);
+}
+ /*======================================================*/  
+.header__name_area {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+/*======================================================*/
+.name_area__project {
+    color: var(--name-pr);
+    font-family: var(--shrift-name);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*======================================================*/
+.name_area__creator {
+    color: var(--name-pr);
+    font-family: var(--shrift-name);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/*======================================================*/
+.header__visibility {
+    display: flex;
+    flex: content;
+    width: 200px;
+    max-width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+/*======================================================*/
+.visibility__up_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+}
+
+.up_block__person {
+    width: 120px;
+    height: 41px;
+}
+/*======================================================*/
+.person__icons {
+    display: inline-block;
+    width: 41px;
+    height: inherit;
+    background-image: url(/img/Ellipse\ 6.png);
+    background-repeat: repeat-x;
+}
+/*======================================================*/
+.person_1 {
+    position: relative;
+}
+/*======================================================*/
+.visibility__down_block {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width: 200px;
+    min-width: 200px;
+    color: var(--name-pr);
+    font-family: var(--shrift-name);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color:  rgba(182, 225, 255, 0.25);
+}
+
+
+
+/*======================================================*/
+.markerplace {
+    height: 81px;
+    background: white;
+    min-width: 720px;  
+}
+
+.markerplace__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+.markerplace__fon_block {
+    display: flex;
+    width: 1042px;
+    height: 69px;
+    background-color: #A3CBF0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.markerplace__button_block {
+    display: flex;
+    min-width: 400px;
+    justify-content: space-between;
+}
+
+.button_block__markers {
+    margin: 0px 15px;
+    width: 156.942px;
+    height: 36.225px;
+    background-color: var(--buttom-color);
+}
+
+.button_block__button1 {
+    padding: 5px;
+    margin: 0px 10px;
+    width: 35.534px;
+    height: 36.225px;
+    background-color: var(--buttom-color);
+}
+
+.button_block__button2 {
+    padding: 5px;
+    margin: 0px 10px;
+    width: 35.534px;
+    height: 36.225px;
+    background-color: var(--buttom-color);
+}
+
+.button_block__button3 {
+    padding: 5px;
+    margin: 0px 10px;
+    width: 35.534px;
+    height: 36.225px;
+    background-color: var(--buttom-color);
+}
+
+.markerplace__search input[type=text] {
+    padding: 5px;
+    margin: 0px 10px;
+    font-size: 20px;
+  }
+/*======================================================*/
+.page {
+    flex: 1 1 auto;
+    background-color: rgb(161, 162, 163);
+}
+
+/*======================================================*/
+
+.footer {
+    height: 50px;
+    background-color: var(--bg-color);
+}
+
+
+[class*="__container"] {  /*селектор для использования стилей где встречается __container*/
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+@media (max-width: 1200px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+@media (max-width: 990px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+@media (max-width: 760px) {
+    [class*="__container"] {
+        max-width: none;
+        padding: 0px 10px;
+    }
+}
+
+

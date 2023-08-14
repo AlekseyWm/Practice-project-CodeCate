@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "thisGuest": false,
+      "idCustomer": 594036,
+      "surNameCustomer": "ръаее",
+      "firstNameCustomer": "вйсьг",
+      "patronymicCustomer": "якзчщ",
+      "loginCustomer": "ыинрш",
+      "email": "чцыжв"
+    },
+    {
+      "thisGuest": true,
+      "idCustomer": 753550,
+      "surNameCustomer": "хдуща",
+      "firstNameCustomer": "ёвхкц",
+      "patronymicCustomer": "зхлиж",
+      "loginCustomer": "фюкёё",
+      "email": "асффч"
+    }
+  ],
+  "usersProject": [
+    {
+      "thisGuest": true,
+      "id": 164639,
+      "surName": "чыкпн",
+      "firstName": "вюбщй",
+      "patronymic": "тюрым",
+      "role": "хойам"
+    },
+    {
+      "thisGuest": true,
+      "id": 631199,
+      "surName": "лпняр",
+      "firstName": "щфнээ",
+      "patronymic": "щпэоп",
+      "role": "ьрвдх"
+    }
+  ],
+  "projects": [
+    {
+      "id": 757470,
+      "nameProject": "ьътбё",
+      "creatorProject": "хюшнб",
+      "dateCreate": "мьубо",
+      "dateChange": "фптъб",
+      "contentProject": "юаелс"
+    },
+    {
+      "id": 363448,
+      "nameProject": "ррвчх",
+      "creatorProject": "луйёж",
+      "dateCreate": "пюоык",
+      "dateChange": "ащскт",
+      "contentProject": "гюглж"
+    }
+  ],
+  "snippets": [
+    {
+      "id": 740646,
+      "access": true,
+      "issyedBy": "ржжйк"
+    },
+    {
+      "id": 429052,
+      "access": false,
+      "issyedBy": "чвъчш"
+    }
+  ],
+  "snippetsProject": [
+    {
+      "id": 746320,
+      "idProject": 781732,
+      "nameSnippet": "фчгпд",
+      "languageSnippet": "ыъшэв",
+      "creatorSnippet": "бёрсш",
+      "dateCreate": "ххиыы",
+      "dateChange": "жфюзм",
+      "contentSnippet": "рйюст"
+    },
+    {
+      "id": 367291,
+      "idProject": 813965,
+      "nameSnippet": "ыйшщф",
+      "languageSnippet": "ъосям",
+      "creatorSnippet": "жчоеё",
+      "dateCreate": "ътскт",
+      "dateChange": "жйужы",
+      "contentSnippet": "фпбшы"
+    }
+  ]
+}
